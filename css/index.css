@@ -297,6 +297,10 @@ footer {
   border-radius: 5px;
   color: white;
 }
+.home .walk .walk-text .btn .signUp:hover {
+  background-color: white;
+  color: #22283A;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn .signUp {
     display: block;
@@ -306,6 +310,10 @@ footer {
     font-size: 1.8rem;
     border-radius: 5px;
     color: white;
+  }
+  .home .walk .walk-text .btn .signUp:hover {
+    background-color: white;
+    color: #22283A;
   }
 }
 .home .walk .walk-img {
