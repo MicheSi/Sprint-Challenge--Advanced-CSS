@@ -33,14 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive websites adapt themselves to fit into various screen resolutions based on predefined screen sizes. Responsive websites use reponsive units so that the viewport adapts to the user's screen size, accomodating all devices/screens.
 
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first means you design the code for a mobile size screen first, then expand the layout towards a desktop size screen.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+It sets the default font size to 10px so that it's easier to do the math by tenths instead of sixteenths (for normal default font size of 16px) when converting to rems.
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is a more refined way to write code with CSS. It uses a Syntax to write the code and a compiler to convert the code into CSS. It allows us to use more functions or features that regular CSS doesn't allow us to.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept about preprocessing is being able to create mixins so that I don't have to rewrite the same code over and over. I also like being able to nest elements. Although, at the same time, you have to be really careful when nesting elements because you have to make sure you are nesting them under the right parent, don't accidentally delete a curly bracket, or end up with an extra one at the end, or your code won't work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
