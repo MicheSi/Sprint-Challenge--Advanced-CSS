@@ -166,6 +166,11 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    padding: 3%;
+  }
+}
 nav {
   max-width: 1000px;
   width: 100%;
@@ -200,6 +205,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  footer {
+    margin: 1%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -286,6 +296,17 @@ footer {
   font-size: 1.8rem;
   border-radius: 5px;
   color: white;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn .signUp {
+    display: block;
+    background-color: #22283A;
+    width: 425px;
+    height: 70px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    color: white;
+  }
 }
 .home .walk .walk-img {
   width: 46%;

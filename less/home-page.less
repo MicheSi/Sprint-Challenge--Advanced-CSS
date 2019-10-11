@@ -42,6 +42,7 @@
     }
   }
 
+
   .sky, .launch {
     @media @phone {
       display: none;
@@ -90,8 +91,11 @@
 
       .btn .signUp {
         .btn-class (125px, 38px, 1.8rem);
+
+        @media @phone {
+          .btn-class (425px, 70px, 1.8rem);
+        }
       }
-      
     }
 
     .walk-img {
