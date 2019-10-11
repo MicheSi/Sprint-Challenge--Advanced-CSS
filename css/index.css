@@ -176,16 +176,18 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
+  flex-wrap: nowrap;
   padding: 1%;
 }
 nav h1 {
   font-size: 3.8rem;
-  padding: 1%;
+  padding: 2%;
 }
 nav a {
   font-size: 1.6rem;
   text-decoration: none;
   color: black;
+  margin: 2%;
 }
 footer {
   color: #22283B;
@@ -202,6 +204,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .header-img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -238,6 +243,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn .signUp {
+  display: block;
+  background-color: #22283A;
+  width: 125px;
+  height: 38px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;
