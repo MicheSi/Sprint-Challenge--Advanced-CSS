@@ -1,1 +1,14 @@
 // Mixins Here
+.second-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: @white-smoke;
+}
+
+.display-layout (@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    flex-wrap: wrap;
+    align-items: @align;
+}

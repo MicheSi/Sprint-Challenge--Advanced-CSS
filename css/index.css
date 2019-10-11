@@ -1,3 +1,9 @@
+.second-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +165,27 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 1%;
+}
+nav h1 {
+  font-size: 3.8rem;
+  padding: 1%;
+}
+nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
 }
 footer {
   color: #22283B;
