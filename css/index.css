@@ -172,11 +172,8 @@ nav {
   margin: 0 auto;
   background-color: #F4F4F4;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
   flex-direction: column;
-  flex-wrap: nowrap;
+  text-align: center;
   padding: 1%;
 }
 nav h1 {
@@ -207,6 +204,7 @@ footer {
 }
 .home .header-img {
   border-radius: 5px;
+  width: 100%;
 }
 .home .space-images {
   display: flex;

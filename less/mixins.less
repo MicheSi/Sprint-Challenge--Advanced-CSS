@@ -6,11 +6,10 @@
     background-color: @white-smoke;
 }
 
-.display-layout (@justify, @align) {
-    display: flex;
-    justify-content: @justify;
-    flex-wrap: wrap;
-    align-items: @align;
+.display-layout (@flex, @direction) {
+    display: @flex;
+    flex-direction: @direction
+    
 }
 
 .btn-class (@width, @height, @ftsize){
